@@ -50,9 +50,6 @@ class AfricasTalking
         $this->_username = $config['username'];
         $this->_apiKey = $config['apiKey'];
 
-//        $this->_username = 'ishule';
-//        $this->_apiKey = 'ccf0c3eff02e6077d8493d5a046c699661e411573ed3abcb7d36631daa2135a7';
-
         $this->_requestBody = null;
         $this->_requestUrl = null;
 
