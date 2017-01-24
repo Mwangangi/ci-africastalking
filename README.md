@@ -15,9 +15,11 @@ Loading the library:
 Calling Gateway methods from within your Controllers:
 
 > //Using the default sender ID
+> 
 >$this->africastalking->sendMessage($recipients, $message); 
 > 
 >//Send using custom SenderId
+> 
 > $this->africastalking->sendMessage($recipients, $message,$sender_id); 
 > etc
 
