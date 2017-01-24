@@ -40,7 +40,7 @@ class Africastalking extends AfricasTalkingGateway
                                         'Cost'      => $result->cost
                                         );
             }
-        } catch (AfricasTalking $e)
+        } catch (AfricasTalkingGatewayException $e)
         {
             log_message('error',"Encountered an error while sending: " . $e->getMessage());
             
