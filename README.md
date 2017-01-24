@@ -7,6 +7,7 @@ ci-africastalking is a Codeigniter Library for [AfricasTalking API](https://www.
   - Move config/africastalking.php into your CI config directory
   - Move the third_party/AfricasTalkingGateway.php into your CI third_party directory or download a fresh copy from the [Official Docs page](http://docs.africastalking.com/).
   - Move the library into your library folder.
+  - Update the africastalking.php config file with your correct setings
 
 ### Usage
 Loading the library:
@@ -23,6 +24,8 @@ Calling Gateway methods from within your Controllers:
 > $this->africastalking->sendMessage($recipients, $message,$sender_id); 
 > etc
 
+### Bugs And Feature Requests
+Kindly open a new issue here iff none already exists.
 
 ### Todo:
 
